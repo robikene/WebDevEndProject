@@ -4,7 +4,7 @@ li {
 .footer {
     background-color: #CDCDCD;
     height: 60px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -12,4 +12,13 @@ li {
     width: 30px;
     height: auto;
     margin-right: 10px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 3em;
+}
+
+tr {
+    margin-left: 100px;
 }
