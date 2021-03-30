@@ -1,6 +1,15 @@
+html {
+    height: 100%;
+}
+
 li {
     display: inline;
 }
+
+#navbar {
+    height: 60px;
+}
+
 .footer {
     background-color: #CDCDCD;
     height: 60px;
@@ -21,4 +30,14 @@ table {
 
 tr {
     margin-left: 100px;
+}
+
+#maps {
+    position: relative;
+    top: 0px;
+    bottom:60px;
+}
+
+#activelink {
+    text-shadow: 0px 5px 3px black;
 }
