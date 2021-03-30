@@ -1,3 +1,15 @@
 li {
     display: inline;
 }
+.footer {
+    background-color: #CDCDCD;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.social-logo img{
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
