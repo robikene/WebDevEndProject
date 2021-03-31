@@ -6,6 +6,7 @@ li {
     display: inline;
 }
 
+
 .footer {
     background-color: #CDCDCD;
     height: 60px;
@@ -36,6 +37,10 @@ tr {
 
 #activelink {
     text-shadow: 0px 5px 3px black;
+}
+.nav-pic {
+    width: 100%;
+    height: auto;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
