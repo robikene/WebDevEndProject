@@ -49,6 +49,37 @@ td, th {
     height: auto;
 }
 
+#slide-container {
+    padding-bottom: 100px;
+}
+
+.majutus-text p {
+    color: red;
+    line-height: 280%;
+    font-size: large;
+    padding: 10px;
+}
+
+#left-border p{
+    border-left-style: solid;
+    border-left-color: black;
+}
+
+#majutus-info-container {
+    margin-bottom: 8%;
+}
+
+@media (max-width: 765px) {
+    #left-border p{
+        border-left-style: none;
+    }
+
+    #pauli-ait {
+        justify-content: start;
+    }
+}
+
+
 @media (min-width: 768px) and (max-width: 991px) {
     /* Show 4th slide on md if col-md-4*/
     .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
