@@ -71,6 +71,11 @@ td, th {
     border-left-color: black;
 }
 
+#kaart-container {
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
 #majutus-info-container {
     margin-bottom: 8%;
 }
