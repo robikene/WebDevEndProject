@@ -5,7 +5,10 @@ html {
 li {
     display: inline;
 }
-
+.nav-item a {
+    color: black;
+    
+}
 
 .footer {
     background-color: #CDCDCD;
@@ -47,6 +50,10 @@ td, th {
 .nav-pic {
     width: 100%;
     height: auto;
+}
+.scroll {
+    height: 200px;
+    overflow: scroll;
 }
 
 #slide-container {
