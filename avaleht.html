@@ -47,6 +47,15 @@
                     <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="images/markna5.jpg" class="img-fluid mx-auto d-block" alt="img5">
                     </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/markna2.jpg" class="img-fluid mx-auto d-block" alt="img6">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/markna6.jpg" class="img-fluid mx-auto d-block" alt="img7">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="images/markna7.jpg" class="img-fluid mx-auto d-block" alt="img8">
+                    </div>
                 </div>
                 <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -87,15 +96,18 @@
             </div>
         </div>
     </footer>  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script>
+        jQuery(document).ready(function() {
         $('#carousel-example').on('slide.bs.carousel', function (e) {
             /*
                 CC 2.0 License Iatek LLC 2018 - Attribution required
             */
             var $e = $(e.relatedTarget);
             var idx = $e.index();
-            var itemsPerSlide = 4;
+            var itemsPerSlide = 5;
             var totalItems = $('.carousel-item').length;
         
             if (idx >= totalItems-(itemsPerSlide-1)) {
@@ -104,13 +116,13 @@
                     // append slides to end
                     if (e.direction=="left") {
                         $('.carousel-item').eq(i).appendTo('.carousel-inner');
-                        console.log("jõuan siia");
                     }
                     else {
                         $('.carousel-item').eq(0).appendTo('.carousel-inner');
                     }
                 }
             }
+        });
         });
     </script>
 
