@@ -7,7 +7,8 @@ li {
 }
 .nav-item a {
     color: black;
-    
+    font-size: large;
+    font-weight: 500;
 }
 
 .footer {
@@ -37,8 +38,6 @@ td, th {
 
 #maps {
     position: relative;
-    /*top: 0px;
-    bottom:60px;*/
     width:100%;
     height:500px;
     border:0;
@@ -61,7 +60,6 @@ td, th {
 }
 
 .majutus-text p {
-    color: red;
     line-height: 280%;
     font-size: large;
     padding: 10px;
